@@ -324,3 +324,41 @@
 
 })(jQuery);
 
+
+
+
+
+
+
+
+
+
+
+
+// // log in sign up
+// // Open registration modal when register button is clicked
+// document.getElementById('registerButton').addEventListener('click', function() {
+// 	document.getElementById('registrationModal').style.display = 'block';
+//   });
+  
+//   // Close registration modal when close button is clicked
+//   document.querySelectorAll('.close').forEach(function(closeButton) {
+// 	closeButton.addEventListener('click', function() {
+// 	  document.querySelectorAll('.modal').forEach(function(modal) {
+// 		modal.style.display = 'none';
+// 	  });
+// 	});
+//   });
+  
+//   // Open login modal when login link is clicked
+//   document.getElementById('loginLink').addEventListener('click', function() {
+// 	document.getElementById('registrationModal').style.display = 'none';
+// 	document.getElementById('loginModal').style.display = 'block';
+//   });
+  
+//   // Open registration modal when sign up link is clicked
+//   document.getElementById('signupLink').addEventListener('click', function() {
+// 	document.getElementById('loginModal').style.display = 'none';
+// 	document.getElementById('registrationModal').style.display = 'block';
+//   });
+  

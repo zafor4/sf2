@@ -1,0 +1,87 @@
+/* Modal styles */
+.modal {
+    display: none;
+    text-align: center;
+    position: fixed;
+    z-index: 1000; /* Ensure modals appear above other content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px; /* Limit modal width for better mobile experience */
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 300px) {
+    .modal-content {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+
+  #userIcon{
+    color: #5465FF;
+    font-size: 20px;
+    display: none;
+  }
+  
+
+
+
+  #Voice {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to your desired vertical position */
+    right: 20px; /* Adjust this value to your desired horizontal position */
+    z-index: 9999; /* Make sure it's above other content */
+    background-color: aqua; /* Optional: Add background color */
+    color: red;
+    padding: 10px; /* Optional: Add padding */
+    border-radius: 50%; /* Optional: Add border-radius for circular shape */
+    cursor: pointer; /* Add cursor pointer for better UX */
+  }
+  
+
+  #action {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to change the vertical position */
+    left: calc(50% + 20px); /* Adjust this value to change the horizontal position */
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+    padding: 5px 10px; /* Adjust the padding */
+    border-radius: 10px;
+    z-index: 9999; /* Ensure it appears above other elements */
+  }
+  
+  #action small {
+    display: inline-block; /* Make the <small> tag behave like a block element */
+  }
+  
+
+  .inputfields{
+    margin-top: 10px;
+    border: .5px solid #5465FF;
+  }
+
