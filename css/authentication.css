@@ -56,8 +56,8 @@
     bottom: 20px; /* Adjust this value to your desired vertical position */
     right: 20px; /* Adjust this value to your desired horizontal position */
     z-index: 9999; /* Make sure it's above other content */
-    background-color: aqua; /* Optional: Add background color */
-    color: red;
+    background-color: #5465FF; /* Optional: Add background color */
+    color: #FFFFFF;
     padding: 10px; /* Optional: Add padding */
     border-radius: 50%; /* Optional: Add border-radius for circular shape */
     cursor: pointer; /* Add cursor pointer for better UX */
